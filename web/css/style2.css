@@ -36,43 +36,74 @@
 }
 
 /* -------------------- */
+/*         TITRE        */
+/* -------------------- */
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: Calistoga, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 3px black;
+    padding-bottom: 60px;
+}
+
+
+/* -------------------- */
+/*    PROGRESS BARRE    */
+/* -------------------- */
+
+.progress-margin{
+    margin: 25px 0 25px 0;
+}
+
+
+/* -------------------- */
+/*     SCROLL BARRE     */
+/* -------------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* -------------------- */
 /*          HOME        */
 /* -------------------- */
 
 #home{
-    background-color: #3d546f;
+    background: url("../img/1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 200px 0 200px 0;
 }
 
-.cadre{
-    background-color: #4b6889;
-    padding: 5%;
-    width: 100%;
-    opacity: inherit;
-}
-
-#home p{
-    color: rgb(255, 255, 255);
-    font-family: Calistoga, sans-serif;
-    text-transform: uppercase;
-    font-size: 25px;
-    padding-bottom: 20px;
-}
-
 #home h2{
-    color: rgb(255, 255, 255);
-    font-family: Calistoga, sans-serif;
-    text-transform: uppercase;
-    font-size: 25px;
     padding-bottom: 5px;
 }
 
 #home h3{
-    color: rgb(255, 255, 255);
-    font-family: Calistoga, sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    padding-bottom: 8px;
+    padding-bottom: 25px;
+}
+
+.cadre{
+    background-color: rgba(54, 54, 54, 0.596);
+    padding: 5%;
+    box-shadow: 1px 1px 10px 1px #504b4b;
 }
 
 .profil-img{
@@ -80,31 +111,56 @@
     height: 150px;
     border-radius: 50px;
     margin-bottom: 25px;
+    box-shadow: 1px 1px 10px 1px #504b4b;
 }
 
 /* -------------------- */
 /*      PORTFOLIO       */
 /* -------------------- */
 
-#portfolio{
-    background-color: #6489b5;
+#recommandation{
+    background-color: rgb(210, 221, 247);
     padding: 80px 0 80px 0;
     box-shadow: 1px 1px 10px 1px #6489b5;
 }
 
 .realisation{
-    width: 300px;
-    height: 250px;
-    box-shadow: 1px 1px 7px 2px #6795cb;
+    background-color: rgba(34, 34, 34, 0.534);
     transition: all 0.4s ease;
-    border-radius: 20px;
     cursor: pointer;
-    margin: 10px;
+    margin: 10px 10px 40px 10px;
 }
 
-.realisation:hover{
-    transform: scale(0.8);
-    box-shadow: 1px 1px 10px 1px #87b1e3;
+.cadre-port{
+    background-color: rgba(54, 54, 54, 0.596);
+    padding: 5%;
+    box-shadow: 1px 1px 10px 1px #504b4b;
+}
+
+.trav-img{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 10px 1px #504b4b;
+}
+
+/* -------------------- */
+/*    RECOMMANDATION    */
+/* -------------------- */
+
+#recommandation{
+    background-color: rgb(210, 221, 247);
+    padding: 80px 0 80px 0;
+    box-shadow: 1px 1px 10px 1px #6489b5;
+}
+
+#recommandation p{
+    font-size: 16px;
+}
+
+#recommandation h3{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -170,26 +226,6 @@ footer p > span{
     transition: all .3s ease-in-out;
 }
 
-
-/* -------------------- */
-/*     MENTION LEGAL    */
-/* -------------------- */
-
-#recommandation{
-    background-color: #3d546f;
-    padding: 200px 0 200px 0;
-    color: rgb(255, 255, 255);
-}
-
-#recommandation p{
-    font-size: 16px;
-}
-
-#recommandation h3{
-    font-size: 20px;
-    font-weight: bold;
-}
-
 /* -------------------- */
 /*     MENTION LEGAL    */
 /* -------------------- */
@@ -208,50 +244,3 @@ footer p > span{
     font-size: 20px;
     font-weight: bold;
 }
-
-/* -------------------- */
-/*         TITRE        */
-/* -------------------- */
-
-h2{
-    color: rgb(255, 255, 255);
-    font-family: Calistoga, sans-serif;
-    text-transform: uppercase;
-    text-shadow: 2px 3px black;
-    padding-bottom: 60px;
-}
-
-
-/* -------------------- */
-/*    PROGRESS BARRE    */
-/* -------------------- */
-
-.progress-margin{
-    margin: 25px 0 25px 0;
-}
-
-
-/* -------------------- */
-/*     SCROLL BARRE     */
-/* -------------------- */
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-

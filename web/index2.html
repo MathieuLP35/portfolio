@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- CSS -->
+    <link href="css/style2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/smooth.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">LE PETITCORPS MATHIEU</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scrollTo" href="#home"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scrollTo" href="#portfolio"><i class="fa fa-address-card"></i> Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scrollTo" href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container d-flex flex-row-reverse flex-wrap justify-content-around">
+            <img class="profil-img align-self-center mx-auto d-block" src="img/1.jpg" alt="Photo de moi" />
+            <div class="cadre col-md-6 d-flex flex-column text-white">
+                <h2 class="text-center">Portfolio</h2>
+                <h3 class="text-center">Le Petitcorps Mathieu</h3>
+                <div> Sedisset saevi: velut quaerebatur his accusatoris implacabilitati vox ulla fecere iusque specie
+                    confestim iusque perpensum licet implacabilitati his fas subditicii fecere fecere quod specie specie
+                    praescriptis acervis subditicii iusque ut. Sedisset saevi: velut quaerebatur his accusatoris
+                    implacabilitati vox ulla fecere iusque specie confestim iusque perpensum licet implacabilitati his
+                    fas subditicii fecere fecere quod specie specie praescriptis acervis subditicii iusque ut.</div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container d-flex flex-column flex-wrap justify-content-around">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="container d-flex flex-row flex-wrap justify-content-around">
+                <div class="cadre-port col-md-4 d-flex flex-column text-white">
+                    <img class="profil-img align-self-center mx-auto d-block" src="img/1.jpg" alt="Photo de moi" />
+                    <div class="">Sedisset saevi: velut quaerebatur his accusatoris implacabilitati vox ulla fecere iusque specie
+                        confestim iusque perpensum licet implacabilitati his fas subditicii fecere fecere quod specie specie
+                        praescriptis acervis subditicii iusque ut.</div>
+                </div>
+                <div class="cadre-port col-md-4 d-flex flex-column text-white">
+                    <img class="profil-img align-self-center mx-auto d-block" src="img/1.jpg" alt="Photo de moi" />
+                    <div class="">Sedisset saevi: velut quaerebatur his accusatoris implacabilitati vox ulla fecere iusque specie
+                        confestim iusque perpensum licet implacabilitati his fas subditicii fecere fecere quod specie specie
+                        praescriptis acervis subditicii iusque ut.</div>
+                </div>
+                <div class="cadre-port col-md-4 d-flex flex-column text-white">
+                    <img class="profil-img align-self-center mx-auto d-block" src="img/1.jpg" alt="Photo de moi" />
+                    <div class="">Sedisset saevi: velut quaerebatur his accusatoris implacabilitati vox ulla fecere iusque specie
+                        confestim iusque perpensum licet implacabilitati his fas subditicii fecere fecere quod specie specie
+                        praescriptis acervis subditicii iusque ut.</div>
+                </div>
+            </div>
+            <div class="rea-desc col-md-4"></div>
+        </div>
+      </section>
+    <section id="recommandation">
+        <div class="container d-flex flex-row-reverse flex-wrap justify-content-around">
+            <h2 class="text-center">Recommandation Professionnel</h2>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="d-flex justify-content-center ">Me Contacter</h2>
+            <form action="#" method="POST" class="needs-validation" novalidate>
+            <div class="form-group">
+                <p class="d-flex justify-content-center">Veuillez remplir ce formulaire pour me contacter.</p>
+                <input type="text" class="form-control" id="nom" placeholder="Votre Nom" name="nom" required>
+                <div class="valid-feedback">Valide.</div>
+                <div class="invalid-feedback">S'il vous plaît veuillez remplir ce champ.</div>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Votre Email" name="email" required>
+                <div class="valid-feedback">Valide.</div>
+                <div class="invalid-feedback">S'il vous plaît veuillez remplir ce champ.</div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="objet" placeholder="Objet de votre email" name="objet" required>
+                <div class="valid-feedback">Valide.</div>
+                <div class="invalid-feedback">S'il vous plaît veuillez remplir ce champ.</div>
+            </div>
+            <div class="form-group">
+                <textarea type="text" class="form-control" id="contenu" placeholder="Contenu de votre email ici"
+                name="contenu" required></textarea>
+                <div class="valid-feedback">Valide.</div>
+                <div class="invalid-feedback">S'il vous plaît veuillez remplir ce champ.</div>
+            </div>
+            <div class="custom-control custom-checkbox mb-3 ">
+                <input type="checkbox" class="custom-control-input" id="customCheck" name="confidentialité" required>
+                <label class="custom-control-label " for="customCheck">En cochant cette case, vous acceptez la <a
+                    href="page/mention.html">politique de confidentialité</a> de ce site</label>
+                <div class="valid-feedback">Valide.</div>
+                <div class="invalid-feedback">S'il vous plaît veuillez remplir ce champ.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+        </section>
+    <footer>
+        <div class="container mt-3 d-flex flex-row justify-content-around">
+            <p>Le Petitcorps Mathieu</p>
+            <a href="https://www.linkedin.com/in/mathieu-le-petitcorps-6a650419a/" target="_blank"
+                class="btn-social btn-outline-white" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="page/mention.html">
+                <p>Mention Légales</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
