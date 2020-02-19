@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -6802,26 +6802,6 @@ a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important;
-}
-
-.bg-lightcustom {
-  background-color: rgba(248, 249, 250, 0.753) !important;
-}
-
-a.bg-lightcustom:hover, a.bg-lightcustom:focus,
-button.bg-lightcustom:hover,
-button.bg-lightcustom:focus {
-  background-color: rgba(248, 249, 250, 0.753) !important;
-}
-
-.bg-recommandation {
-  background-color: #E8C499 !important;
-}
-
-a.bg-recommandation:hover, a.bg-recommandation:focus,
-button.bg-recommandation:hover,
-button.bg-recommandation:focus {
-  background-color: #E8C499 !important;
 }
 
 .bg-dark {

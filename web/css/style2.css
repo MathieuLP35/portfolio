@@ -36,7 +36,7 @@ a {
     color: rgb(255, 255, 255);
     font-family: Calistoga, sans-serif;
     text-transform: uppercase;
-    text-shadow: 2px -2px rgb(255, 255, 255);
+    text-shadow: 2px -2px rgb(0, 0, 0);
     font-size: 25px;
     padding-bottom: 20px;
     opacity: 1;
@@ -49,10 +49,6 @@ a {
 
 .nav-pills{
     background-color: rgb(112, 128, 144);
-}
-
-.navbar{
-    padding 5px;
 }
 
 /* -------------------- */
@@ -106,7 +102,7 @@ h2{
 /* -------------------- */
 
 #home{
-    background: url("../img/2.jpg") no-repeat;
+    background: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_960_720.jpg") no-repeat;
     background-size: cover;
     background-position: center/80%;
     padding: 200px 0 200px 0;
@@ -143,8 +139,8 @@ h2{
 /* -------------------- */
 
 #portfolio{
-    background-color: rgb(102, 66, 32);
-    box-shadow: 1px 1px 10px 1px rgb(102, 66, 32);
+    background-color: rgb(89, 89, 105);
+    box-shadow: 1px 1px 10px 1px rgb(94, 106, 117);
 }
 
 #portfolio-before{
@@ -182,9 +178,9 @@ h2{
 /* -------------------- */
 
 #recommandation{
-    background-color: rgb(138, 91, 48);
+    background-color: rgb(83, 88, 92);
     padding: 80px 0 80px 0;
-    box-shadow: 1px 1px 10px 1px rgb(138, 91, 48);
+    box-shadow: 1px 1px 10px 1px rgb(94, 106, 117);
 }
 
 #recommandation p{
@@ -196,20 +192,15 @@ h2{
     font-weight: bold;
 }
 
-.showrecommandation{
-    border-radius: 18px;
-}
-
-
 
 /* -------------------- */
 /*        CONTACT       */
 /* -------------------- */
 
 #contact{
-    background-color: rgb(204, 167, 133);
+    background-color: rgb(42, 42, 42);
     padding: 100px 0 100px 0;
-    box-shadow: 1px 1px 10px 1px rgb(204, 167, 133);
+    box-shadow: 1px 1px 10px 1px rgb(42, 42, 42);
 }
 
 #contact textarea{
@@ -292,12 +283,13 @@ footer p > span{
     text-decoration: none;
 }
 
+
 /* */
 
 .icon-bar {
 	width: 22px; 
 	height: 2px;
-	background-color: rgb(46, 46, 46);
+	background-color: rgb(202, 202, 202);
 	display: block;
 	transition: all 0.2s;
 	margin: 4px 0px 4px 0px;
@@ -333,5 +325,3 @@ opacity: 1;
 .navbar-toggler.collapsed .bottom-bar {
 transform: rotate(0);
 }
-
-   

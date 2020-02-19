@@ -5,8 +5,8 @@
                 <thead class="thead-dark">
                     <tr>
                         <th>ID</th>
-                        <th>Nom du projet</th>
-                        <th>Mot de passe</th>
+                        <th>Nom</th>
+                        <th>Prénom</th>
                         <th>Admin</th>
                         <th>Action</th>
                     </tr>
@@ -25,7 +25,7 @@
     {
         $admin = ($data["users_Admin"]==1)?'Oui':'Non';
         echo 
-        "<tr><td>".$data["id_users"]."</td><td>".$data["users_Name"]."</td><td>".$data["users_Pass"]."</td><td>".$admin."</td>
+        "<tr><td>".$data["id_users"]."</td><td>".$data["users_Name"]."</td><td>".$data["users_Firstname"]."</td><td>".$admin."</td>
             <td>
             <div class='btn-group'>
                 <button type='button' class='btn btn-primary'>Action</button>
@@ -33,6 +33,7 @@
                     <span class='caret'></span>
                 </button>
                 <div class='dropdown-menu'>
+                    <a class='dropdown-item cursor' data-toggle='modal' data-target='#edit'>Modifier</a>
                     <a class='dropdown-item cursor' onclick=\"if(confirm('Êtes vous sur de vouloir supprimer ".$data["users_Name"]."?')){ document.location.href='include/delete.php?id=".$data["id_users"]."'; }\"'>Supprimer</a>
                 </div>
             </div>

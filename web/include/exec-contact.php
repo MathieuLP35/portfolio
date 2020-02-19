@@ -10,8 +10,5 @@
         <b>Message : </b>' . $_POST['message'] . '</p>';
 
         $retour = mail('mlepetitcorps@laposte.net', 'Envoi depuis page Contact Portfolio', $message, $entete);
-        if($retour) {
-            echo '<p>Votre message a bien été envoyé.</p>';
-        }
     }
 ?>

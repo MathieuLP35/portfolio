@@ -1,8 +1,8 @@
 <footer>
-        <div class="container mt-3 d-flex flex-row justify-content-around flex-wrap">
+    <div class="container mt-3 d-flex flex-row justify-content-around flex-wrap">
             <p>Le Petitcorps Mathieu</p>
-            <div><a href="https://www.linkedin.com/in/mathieu-le-petitcorps-6a650419a/" target="_blank" class="btn-social btn-outline-white" title="Linkedin"><i class="fa fa-linkedin"></i></a></div>
-            <a href="page/mention.html">
+            <div><a href="https://www.linkedin.com/in/mathieu-le-petitcorps-6a650419a/" target="_blank" class="btn-social btn-outline-white text-white" title="Linkedin"><i class="fa fa-linkedin"></i></a></div>
+            <a href="mention.html">
                 <p><?php echo _FMENTION; ?></p>
             </a>
         </div>
@@ -26,6 +26,11 @@
         function showPage() {
             document.getElementById("loader").style.display = "none";
         }
+    </script>
+    <script>
+    $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+    });
     </script>
 </body>
 </html>

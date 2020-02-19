@@ -10,7 +10,7 @@
         echo '
         <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-          <img class="img-fluid mx-auto d-block img-port" src="'.$data["projet_Image"].'" alt="">
+          <img class="img-fluid mx-auto d-block" src="'.$data["projet_Image"].'" alt="">
           <div class="portfolio-box-caption">
             <div class="project-Categorie text-white-50">
               '.$data["projet_categorie_Titre"].'

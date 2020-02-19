@@ -4518,4 +4518,25 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+
+$(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+
+    $('.animated-icon3').toggleClass('open');
+  });
+});
+
 //# sourceMappingURL=bootstrap.js.map

@@ -11,8 +11,8 @@
   require "langue/langue.php";
   
   require "include/index/head.php";
-  require "include/index/navbar.php";
   require "include/index/home.php";
+  require "include/index/navbar.php";
   require "include/index/portfolio.php";
   require "include/index/recommandation.php";
   require "include/index/contact.php";

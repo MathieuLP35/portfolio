@@ -1,11 +1,9 @@
 <?php
     /* ACCUEIL */
-    define("_NOM","Le Petitcorps Mathieu");
-
-    define("_PRESENTATION","Je m'appelle Mathieu Le Petitcorps, j'ai commenc√© √† m'int√©ress√© au d√©veloppement web il y a quelques ann√©es lors de cr√©ation de serveur sur diff√©rent jeux vid√©os avec des amis ...
+    define("_PRESENTATION","Je m'appelle Mathieu Le Petitcorps, j'ai commencé à m'intéressé au développement web il y a quelques années lors de la création de serveur sur différent jeux vidéos avec des amis ...
     Il nous fallait un support tel qu'un site web pour nos serveurs j'ai donc commencer me renseigner et me documenter.");
     
-    define("_PRESENTATION_2","Aujourd'hui c'est devenu une vraie vocation. J'aime exp√©rimenter, d√©couvrir et apprendre de nouvelle chose √† travers diff√©rents projet plus int√©r√©ssant les uns que les autres.
+    define("_PRESENTATION_2","Aujourd'hui c'est devenu une vraie vocation. J'aime expérimenter, découvrir et apprendre de nouvelle chose à travers différents projet plus intéréssant les uns que les autres.
     Chaque projet est un challenge et mon objectif est de tous les surmonters.");
 
     define("_MONCV","Mon C.V");
@@ -17,18 +15,18 @@
     define("_CONTACT","Contact");
     define("_INSCRIPTION","S'inscrire");
     define("_CONNEXION","Se connecter");
-    define("_LANGUE_FR","FR");
-    define("_LANGUE_EN","EN");
+    define("_LANGUE_FR","Français");
+    define("_LANGUE_EN","Anglais");
 
     /* COMPTE */
-    define("_DECONNEXION","Se d√©connecter");
+    define("_DECONNEXION","Se déconnecter");
     define("_ADMIN","Administration");
 
     /* ME CONTACTER */
     define("_MECONTACTER","Me Contacter");
     define("_RFORM","Veuillez remplir ce formulaire pour me contacter");
-    define("_RFORMCHAMP","S'il vous pla√Æt veuillez remplir ce champ.");
-    define("_RCOCHE","En cochant cette case, vous acceptez la <a href='page/mention.html'>politique de confidentialit√©</a> de ce site");
+    define("_RFORMCHAMP","S'il vous plaît veuillez remplir ce champ.");
+    define("_RCOCHE","En cochant cette case, vous acceptez la <a href='pol-conf.html'>politique de confidentialité</a> de ce site");
     define("_RGO","Envoyer");
     define("_RMAIL","Votre Email *");
     define("_RNAME","Votre Nom *");
@@ -36,16 +34,16 @@
     define("_RMAILCONTENT","Contenu de votre email ici *");
 
     /* FOOTER */
-    define("_FMENTION","Mention L√©gales");
+    define("_FMENTION","Mention Légales");
 
     /* PORTFOLIO */
-    define("_PREALISATION","Voici quelques unes de mes r√©alisations");
+    define("_PREALISATION","Voici quelques unes de mes réalisations");
 
     /* RECOMMANDATION */
-    define("_RPRES","Recommandation Professionnel");
-    define("_RPREC","Pr√©c√©dent");
+    define("_RPRES","Recommandations Professionnelles");
+    define("_RPREC","Précédent");
     define("_RSUIV","Suivant");
-    define("_RDEPOT","D√©poser une recommandation");
+    define("_RDEPOT","Déposer une recommandation");
     define("_RENVOI","Envoyer ma recommandation");
     define("_RPOSTLE"," Poster le ");
 
@@ -58,7 +56,7 @@
     /* INSCRIPTIONFORMULAIRE */
     define("_IINSCR","Inscription");
     define("_INOM","Nom");
-    define("_IPRENOM","Pr√©nom");
+    define("_IPRENOM","Prénom");
     define("_IEMAIL","Email");
     define("_IPASSWORD","Mot de passe");
 

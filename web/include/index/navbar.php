@@ -1,13 +1,22 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
     <!--Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#"><?php echo _NOM; ?></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-        aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <?php
+        if ($_SESSION["style"] == "white"){
+            echo '<nav class="navbar navbar-expand-lg navbar-light bg-lightcustom fixed-top">';
+            echo '<a class="navbar-brand" href="#"><img src="img/logo.png" /></a>';
+        }
+        else{
+            echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">';
+            echo '<a class="navbar-brand" href="#"><img src="img/logo2.png" /></a>';
+        }
+    ?>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>				
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#home"><i class="fa fa-home"></i> <?php echo _ACCUEIL; ?></a>
@@ -23,18 +32,17 @@
             </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
-        <li class="nav-item">
-        <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="?lang=fr"><?php echo _LANGUE_FR; ?></a>
-        </li>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="?lang=en"><?php echo _LANGUE_EN; ?></a>
-        </li>
-        <li class="nav-item dropdown">
-            <?php require "include/compte/compte.php" ?>
-        </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="?lang=fr"><?php echo _LANGUE_FR; ?></a>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="?lang=en"><?php echo _LANGUE_EN; ?></a>
+            </li>
+            <li class="nav-item dropdown">
+                <?php require "include/compte/compte.php" ?>
+            </li>
         </ul>
         </div>
     </nav>
-</header>
+    </header>
