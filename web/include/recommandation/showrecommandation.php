@@ -37,7 +37,7 @@ while($res = $r->fetch(PDO::FETCH_ASSOC))
             <div class="media p-3">
             <img src="img/img_avatar3.png" class="mr-3 mt-1 rounded-circle" style="width:60px;">
             <div class="media-body">
-                <h4><?php echo $res['recommandation_Name'];?><small><i><?php echo _RPOSTLE, $date->format('d/m/Y');?></i></small></h4>
+                <h4><?php echo $res['recommandation_Name'];?><small><i><?php echo $RPOSTLE, $date->format('d/m/Y');?></i></small></h4>
                 <p><?php echo $res['recommandation_Desc'];?></p>      
             </div>
             </div>

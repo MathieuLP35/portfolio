@@ -5,11 +5,11 @@
             <h2 class="text-center">Portfolio</h2>
             <hr class="d-flex align-self-center" />
             <div class="text"> 
-                <?php echo _PRESENTATION; ?>
+                <?php echo $PRESENTATION; ?>
             </div>
             <div class="text">
-                <?php echo _PRESENTATION_2; ?>
+                <?php echo $PRESENTATION_2; ?>
             </div>
-            <a href="dl/Le_Petitcorps_Mathieu_CV.pdf" class="btn btn-contact"><?php echo _MONCV; ?></a>
+            <a href="dl/Le_Petitcorps_Mathieu_CV.pdf" class="btn btn-contact"><?php echo $MONCV; ?></a>
     </div>
 </section>

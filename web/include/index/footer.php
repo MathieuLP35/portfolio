@@ -3,7 +3,7 @@
             <p>Le Petitcorps Mathieu</p>
             <div><a href="https://www.linkedin.com/in/mathieu-le-petitcorps-6a650419a/" target="_blank" class="btn-social btn-outline-white text-white" title="Linkedin"><i class="fa fa-linkedin"></i></a></div>
             <a href="mention.html">
-                <p><?php echo _FMENTION; ?></p>
+                <p><?php echo $FMENTION; ?></p>
             </a>
         </div>
     </footer>

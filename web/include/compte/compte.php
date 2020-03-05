@@ -4,14 +4,14 @@
 <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
 <?php
     if(isset($_SESSION['login_data'])){
-        echo '<a href="?logout" class="dropdown-item">'._DECONNEXION.'</a>';
+        echo '<a href="?logout" class="dropdown-item">'.$DECONNEXION.'</a>';
         if($_SESSION['login_data']['admin'] == 1){
-            echo '<a href="admin/index.php" class="dropdown-item">'._ADMIN.'</a>';
+            echo '<a href="admin/index.php" class="dropdown-item">'.$ADMIN.'</a>';
         }
     }
     else{
-        echo '<a href="#" class="dropdown-item" data-toggle="modal" data-target="#inscription">'._INSCRIPTION.'</a>';
-        echo '<a href="#" class="dropdown-item" data-toggle="modal" data-target="#connexion">'._CONNEXION.'</a>';
+        echo '<a href="#" class="dropdown-item" data-toggle="modal" data-target="#inscription">'.$INSCRIPTION.'</a>';
+        echo '<a href="#" class="dropdown-item" data-toggle="modal" data-target="#connexion">'.$CONNEXION.'</a>';
     }
 ?>
 </div>

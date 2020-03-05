@@ -19,25 +19,25 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#home"><i class="fa fa-home"></i> <?php echo _ACCUEIL; ?></a>
+                <a class="nav-link" href="#home"><i class="fa fa-home"></i> <?php echo $ACCUEIL; ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#portfolio"><i class="fa fa-address-card"></i> <?php echo _PORTFOLIO; ?></a>
+                <a class="nav-link" href="#portfolio"><i class="fa fa-address-card"></i> <?php echo $PORTFOLIO; ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#recommandation"><i class="fa fa-sticky-note-o"></i> <?php echo _RECOMMANDATION; ?></a>
+                <a class="nav-link" href="#recommandation"><i class="fa fa-sticky-note-o"></i> <?php echo $RECOMMANDATION; ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact"><i class="fa fa-envelope"></i> <?php echo _CONTACT; ?></a>
+                <a class="nav-link" href="#contact"><i class="fa fa-envelope"></i> <?php echo $CONTACT; ?></a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
             <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="?lang=fr"><?php echo _LANGUE_FR; ?></a>
+                <a class="nav-link waves-effect waves-light" href="?lang=fr"><?php echo $LANGUE_FR; ?></a>
             </li>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-effect waves-light" href="?lang=en"><?php echo _LANGUE_EN; ?></a>
+                <a class="nav-link waves-effect waves-light" href="?lang=en"><?php echo $LANGUE_EN; ?></a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
