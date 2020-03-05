@@ -7,9 +7,9 @@
     <title>Portfolio</title>
     <!-- CSS -->
     <?php require "include/index/style.php"; ?>
-    <link href="css/<?php echo $style; ?>" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/<?php echo $boot; ?>">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/<?php echo $style; ?>" rel="stylesheet" type="text/css" />
+    <link href="css/<?php echo $boot; ?>" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- JS -->
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -20,4 +20,5 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/smooth.js"></script>
+    <script type="text/javascript" src="js/styleswitch.js"></script>
 </head>

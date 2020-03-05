@@ -11,4 +11,6 @@
 
         $retour = mail('mlepetitcorps@laposte.net', 'Envoi depuis page Contact Portfolio', $message, $entete);
     }
+
+    header('Location: ../../index.php');
 ?>

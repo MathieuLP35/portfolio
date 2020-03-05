@@ -1,0 +1,5 @@
+# Modèle créé le : Wed Feb 19 13:55:47 CET 2020 
+projet (id_Projet, projet_Nom, projet_Description, projet_Image, #id_Projet_categorie) 
+projet_categorie (id_Projet_categorie, projet_categorie_Titre) 
+recommandation (id_recommandation, recommandation_Name, recommandation_Date, recommandation_Desc) 
+users (id_users, users_Name, users_Firstname, users_Email, users_Pass, users_Admin) 

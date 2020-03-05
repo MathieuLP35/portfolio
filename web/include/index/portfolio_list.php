@@ -9,7 +9,7 @@
     {   
         echo '
         <div class="col-lg-4 col-sm-6">
-        <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+        <a class="portfolio-box" href="'.$data["projet_Url"].'">
           <img class="img-fluid mx-auto d-block" src="'.$data["projet_Image"].'" alt="">
           <div class="portfolio-box-caption">
             <div class="project-Categorie text-white-50">

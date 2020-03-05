@@ -1,5 +1,7 @@
 <?php
     /* ACCUEIL */
+    define("_NOM","Le Petitcorps Mathieu");
+
     define("_PRESENTATION","My name is Mathieu Le Petitcorps, I started to get interested in web development a few years ago when creating servers on different video games with friends ... 
     We needed a support such as a website for our servers so I started to inquire and document myself.");
     
@@ -15,8 +17,8 @@
     define("_CONTACT","Contact");
     define("_INSCRIPTION","Register");
     define("_CONNEXION","Login");
-    define("_LANGUE_FR","French");
-    define("_LANGUE_EN","English");
+    define("_LANGUE_FR","FR");
+    define("_LANGUE_EN","EN");
 
     /* COMPTE */
     define("_DECONNEXION","Logout");
@@ -26,7 +28,7 @@
     define("_MECONTACTER","Contact me");
     define("_RFORM","Please fill out this form to contact me");
     define("_RFORMCHAMP","Please complete this field.");
-    define("_RCOCHE","By checking this box, you accept the <a href='pol-conf.html'>privacy policy</a> from this site");
+    define("_RCOCHE","By checking this box, you accept the <a href='mention.html'>privacy policy</a> from this site");
     define("_RGO","To send");
     define("_RMAIL","Your email *");
     define("_RNAME","Your name *");
@@ -40,7 +42,7 @@
     define("_PREALISATION","Here are some of my achievements");
 
     /* RECOMMANDATION */
-    define("_RPRES","Professional Recommendations");
+    define("_RPRES","Professional Recommendation");
     define("_RPREC","Previous");
     define("_RSUIV","Next");
     define("_RDEPOT","Submit a recommendation");
